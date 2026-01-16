@@ -1,46 +1,68 @@
-# agent
+# llm_agent_abc
 
-本项目由<font size="4" color="blue">**数艾缘知（上海）科技有限公司开发**</font>。
+本项目由数艾缘知（上海）科技有限公司开发，面向“大模型智能体”学习与实践的开源代码与配套资料。
+AIspire科研助手 的方法论与工程实践在这里落地，希望帮助读者从原理走到实战，做出可复用、可迭代的智能体应用。
 
-为了帮助读者更好地学习<font size="4" color="blue">**大模型智能体**</font>，我们编写了本代码，帮助读者更好地学习和实践智能体技术。
+## 1. 项目结构
 
-## 1. 代码说明
+本项目包含 6 个案例，每个案例都有对应的代码与说明：
 
-本项目由6个案例组成，每个案例都有对应的代码和说明，具体如下：
+- `agent_adviser`：智能体知识顾问
+- `agent_debate`：3 个智能体语音辩论
+- `audio_clone`：真人语音克隆并朗读文本
+- `automated_article`：自动跟进热点论文并总结摘要
+- `pdf_translate`：自动翻译英文 PDF 为中文 PDF
+- `video_poster_generate`：自动从视频生成宣传海报
 
-### 案例1： 智能体知识顾问，见agent_adviser目录；
+## 2. 快速开始
 
-### 案例2：3个智能体语音辩论，见agent_debater目录；
+建议使用虚拟环境：
 
-### 案例3：真人语音克隆并阅读文本，见audio_clone目录；
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-### 案例4：自动跟进热点论文并自动总结摘要，见automated_article目录；
+各案例的使用方式请参考对应目录内的说明文档。
 
-### 案例5：自动翻译英文PDF为中文PDF，见pdf_translate目录；
+## 3. 配套图书
 
-### 案例6：自动从视频生成宣传海报，见video_poster_generate目录。
+《大模型智能体——基本原理与实战案例》已开源，位于 `book/大模型智能体——基本原理与实战案例.pdf`。
 
+![书籍目录脑图](./img/书籍目录脑图.png)
 
+第一部分：智能体基础。系统解释智能体的定义与整体架构，帮助读者建立完整的认知框架。
 
+第二部分：智能体核心模块。围绕感知、角色、学习、记忆、工具、规划、执行与多智能体协同等能力展开，串起智能体的关键能力栈。
 
-## 2. 配套图书
+第三部分：工程实践。聚焦智能体软件服务的构建流程与框架选型，给出可落地的工程路径。
 
-近期开源。
+第四部分：实战案例。通过语音助手、热点追踪、翻译助手、多智能体辩论、海报生成、知识顾问等案例，展示从原理到应用的完整落地方式。
 
+- GitHub 开源地址：https://github.com/Noevara/llm_agent_abc
 
-## 3. 配套在线课程
-在线课程链接：http://mp.weixin.qq.com/mp/homepage?__biz=Mzk0MzE3MDEyNQ==&hid=23&sn=fa7d37a0d7f21bc6683e366e77fe1491&scene=18#wechat_redirect
+## 4. 配套在线课程
+
+在线课程链接：
+http://mp.weixin.qq.com/mp/homepage?__biz=Mzk0MzE3MDEyNQ==&hid=23&sn=fa7d37a0d7f21bc6683e366e77fe1491&scene=18#wechat_redirect
 
 ![课程二维码](./course/大模型智能体.jpg)
 
+## 5. AIspire 产品与社区
 
-## 4. 支持
+- 国内版：https://www.aispire.info
+- 国际版：https://www.aispire.vip
+- 微信小程序：AIspire
+
+## 6. 支持
+
 如果觉得我们的代码对你有帮助，可以给我们打赏，谢谢！
 
 ![赞赏二维码](./img/赞赏二维码.jpg)
 
+## 7. 联系作者
 
-## 5. 联系作者
 如果你（公司）有关于搜索、推荐、精细化运营、知识库、大模型赋能企业应用等相关需求，请联系我们。
 
 ![刘强微信](./img/作者微信.jpg)
