@@ -61,10 +61,10 @@ http://mp.weixin.qq.com/mp/homepage?__biz=Mzk0MzE3MDEyNQ==&hid=23&sn=fa7d37a0d7f
 
 如果觉得我们的代码对你有帮助，可以给我们打赏，谢谢！
 
-![赞赏二维码](./img/赞赏二维码.jpg)
+<img src=\"./img/赞赏二维码.jpg\" alt=\"赞赏二维码\" width=\"50%\" />
 
 ## 7. 联系作者
 
 如果你（公司）有关于搜索、推荐、精细化运营、知识库、大模型赋能企业应用等相关需求，请联系我们。
 
-![刘强微信](./img/作者微信.jpg)
+<img src=\"./img/作者微信.jpg\" alt=\"刘强微信\" width=\"50%\" />
